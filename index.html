@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A little about me — who I am, what I love, and where I'm headed." />
+    <title>About Me — Kemuel Baduon</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script>
+      (function () {
+        var t = localStorage.getItem("theme");
+        if (t === "light" || t === "dark") {
+          document.documentElement.setAttribute("data-theme", t);
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div class="dot-background" aria-hidden="true"></div>
+
+    <button
+      type="button"
+      id="theme-toggle"
+      class="theme-toggle"
+      aria-label="Switch color theme"
+    >
+      <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+        <circle cx="12" cy="12" r="4" />
+        <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41" />
+      </svg>
+      <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+      </svg>
+    </button>
+
+    <main class="page">
+      <div class="container">
+        <article class="hub-card">
+          <header class="hero fade-in">
+            <div class="avatar">
+              <img
+                src="assets/images/profile.svg"
+                alt="Kemuel Baduon"
+                width="80"
+                height="80"
+              />
+            </div>
+            <div class="hero-text">
+              <h1>Kemuel Baduon</h1>
+              <p class="role">15 &middot; Mataheko, Tema &middot; JHS 3 Graduate</p>
+              <p class="bio">Quiet in class, loud at home, always dreaming big.</p>
+            </div>
+          </header>
+
+          <section class="section fade-in" aria-labelledby="about-heading">
+            <div class="section-heading">
+              <h2 id="about-heading">About Me</h2>
+            </div>
+            <div class="about-card">
+              <p>
+                Hey, I'm Kemuel. I live in Mataheko with my grandparents, my two little sisters Esi and Abena, and our
+                dog called Terror. I just wrote the Basic Examination Certificaate Examination(BECE) and I'm waiting for the results to come out.
+              </p> 
+              <p>
+                I go to church every Sunday, but I like to keep things lowkey.
+                I don't have a huge friend group, but the few friends I have are very dear to me.
+                Most mornings I prefer to wake up late, because I mostly have nothing to do
+                I do my routine chores, and help my grandma out in the kitchen or help my grandpa with 
+                his gardening or tending to his car and go straight back to bed.
+              </p>
+              <p>
+                I am a loud and jovial person, but I tend to become quiet and serious when things get serious
+                or when I am in an unfamiliar place. I like learning new things all the time, especially
+                things that feel useful, and they're mostly related to cars and technology(Computers). In
+                the evenings, when I'm librated from all my chores, you usually find me drawing or practing my coding skills.
+              </p>
+              <p>
+                This page is all me - the untamed me. Not perfect, not trying too hard or trying to please anyone. Just a
+                boy from Ghana trying to live his life to the fullest.
+              </p>
+            </div>
+          </section>
+
+          <section class="section fade-in" aria-labelledby="favorites-heading">
+            <div class="section-heading">
+              <h2 id="favorites-heading">A Few Things About Me</h2>
+            </div>
+            <dl class="info-grid">
+              <div class="info-item">
+                <dt>Favorite food</dt>
+                <dd><b>Waakye</b> with a little spaghetti, no debate.</dd>
+              </div>
+              <div class="info-item">
+                <dt>Favorite sport</dt>
+                <dd><b>Football</b> - I support Chelsea and I never watch a Black Stars match
+                  because I am too young to die of a heart attack.</dd>
+              </div>
+              <div class="info-item">
+                <dt>What I love doing</dt>
+                <dd><b>Drawing, coding, and learning</b> new things.</dd>
+              </div>
+              <div class="info-item">
+                <dt>Favorite book</dt>
+                <dd><b>Animal Farm</b> - I read it twice.
+                I also love the diary of a Wimpy Kid series.</dd>
+              </div>
+              <div class="info-item">
+                <dt>Favorite artist</dt>
+                <dd><b>Black Sherif</b> - That voice just hits different.</dd>
+              </div>
+              <div class="info-item">
+                <dt>Favorite movie</dt>
+                <dd><b>The Transformers Franchise</b> - I watched every movie in the franchise like 5 times in the cinema.</dd>
+              </div>
+              <div class="info-item">
+                <dt>Dream job</dt>
+                <dd><b>Engineer</b> - I want to be an engineer who builds useful things that people need
+                  I just don't know what kind yet.</dd>
+              </div>
+              <div class="info-item">
+                <dt>Dream school</dt>
+                <dd><b>St. Augustine's College</b> - I have and still think of the day when I'll be there.</dd>
+              </div>
+              <div class="info-item">
+                <dt>Fun fact</dt>
+                <dd>I can name every animal on the planet. Don't test me.</dd>
+              </div>
+            </dl>
+          </section>
+
+          <section class="section fade-in" aria-labelledby="dreams-heading">
+            <div class="section-heading">
+              <h2 id="dreams-heading">Where I'm Headed</h2>
+            </div>
+            <div class="about-card">
+              <p>
+                Right now I'm focused on getting good grades in my BECE results and getting into my dream school.
+                I know the journey is not easy - fees, pressure, expectations, and everyone criticizing my every move. 
+                But I also know that this is just the beginning. I have a long way to go, and a lot of hard work to do.
+                I don't have all the answers yet, and I don't know exactly what I want to              
+                - but I believe in hard work and patience. My late paternal grandma always used to say,
+                <em>"Patience, my child, for a tree does not bear fruit the day it was planted."</em>
+              </p>
+              <p>
+                One day, I want to look back and reminisce of all I've done and be proud. I wanna have a life story worth telling,
+                a legacy worth leaving, a name worth remembering, for, a business worth building, a company worth leading,
+                a product worth creating, an impact worth making, a mark worth leaving, and finally a life worth living.
+                I want to be remembered as someone who made a difference in the world, someone who lived a good life, 
+                someone who was kind and generous, someone who was successful and happy. I want to be remembered as someone who was not
+                afraid to dream big and work hard to achieve those dreams. I want to be remembered as someone who was not afraid to fail
+                and learn from those failures. I want to be remembered as someone who was not afraid to take risks and seize opportunities. 
+                I want to be remembered as someone who was not afraid to be different and stand out. I want to be remembered as someone 
+                who was not afraid to be himself and live the truth. I want to be remembered as someone who was not afraid to be happy and enjoy life. 
+                I want to be remembered as someone who was not afraid to be kind and make the world a better place. 
+                I want to be remembered as someone who was not afraid to be great and achieve greatness. 
+                I want to be remembered as someone who was not afraid to be immortal and live forever in the hearts of people.
+                I want to be someone my family can be proud of. Good things are coming. For now, I'm taking it one
+                step at a time and trying to enjoy the journey. Wish me luck fellas, I'm gonna need it.
+              </p>
+            </div>
+          </section>
+
+          <footer class="site-footer fade-in">
+            <p class="tagline">Still making my mark.</p>
+            <p class="copyright">&copy; 2026 Kemuel Baduon</p>
+          </footer>
+        </article>
+      </div>
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+</html>
